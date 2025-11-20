@@ -1,6 +1,6 @@
 module github.com/aws/session-manager-plugin
 
-go 1.23.5
+go 1.24.0
 
 require (
 	github.com/aws/aws-sdk-go v1.55.6
@@ -10,9 +10,9 @@ require (
 	github.com/rs/zerolog v1.33.0
 	github.com/stretchr/testify v1.10.0
 	github.com/xtaci/smux v1.5.33
-	golang.org/x/crypto v0.32.0
+	golang.org/x/crypto v0.45.0
 	golang.org/x/sync v0.10.0
-	golang.org/x/sys v0.29.0
+	golang.org/x/sys v0.38.0
 )
 
 require (
@@ -22,6 +22,6 @@ require (
 	github.com/mattn/go-isatty v0.0.19 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/stretchr/objx v0.5.2 // indirect
-	golang.org/x/term v0.28.0 // indirect
+	golang.org/x/term v0.37.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
